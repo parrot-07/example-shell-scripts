@@ -1,0 +1,15 @@
+#!/bin/bash
+
+###########
+#Calculator
+#Author: Gayathri
+#Version: 1
+###########
+
+echo "This is a simple calculator that adds two numbers"
+echo "Enter ur first num: "
+read n1
+echo "Enter ur second num: "
+read n2
+
+echo sum=($n1+$n2)
