@@ -5,6 +5,8 @@
 #Author: Gayathri
 #Version: 1
 ###########
+#
+set -x
 
 echo "This is a simple calculator that adds two numbers"
 echo "Enter ur first num: "
@@ -12,4 +14,5 @@ read n1
 echo "Enter ur second num: "
 read n2
 
-sum=$(echo  ($n1 + $n2) | bc -l)
+let sum=($n1 + $n2)
+echo $sum " is the result"
