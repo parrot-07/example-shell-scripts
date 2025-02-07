@@ -12,4 +12,4 @@ read n1
 echo "Enter ur second num: "
 read n2
 
-sum=$(echo ($n1+$n2) | bc -l)
+sum=$(echo  ($n1 + $n2) | bc -l)
